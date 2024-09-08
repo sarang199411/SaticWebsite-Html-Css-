@@ -53,6 +53,9 @@
     height: 40px;
     border-radius: 5px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 .search-select{
     background-color:#f3f3f3;
     width: 50px; 
@@ -76,4 +79,24 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius:5px ;
     color: #0f1111;
+}
+/* Account And List */
+
+span{
+    font-size: 0.7rem;
+    
+}
+
+.nav-account-list{
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Cart */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
